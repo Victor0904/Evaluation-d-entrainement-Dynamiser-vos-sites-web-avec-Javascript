@@ -47,8 +47,11 @@ function fnRollTheDice() {
         document.querySelector("h1").innerHTML = (sPlayer1 + " gagne!");
         nScore1 += 1;
     }
+
+    // add numberGame UI
     nNbGame += 1;
     
+    // add Score UI
     score1.innerText = nScore1;
     score2.innerText = nScore2;
 
@@ -67,5 +70,4 @@ function rollTheDice() {
 };
 
 
-// function score
 
