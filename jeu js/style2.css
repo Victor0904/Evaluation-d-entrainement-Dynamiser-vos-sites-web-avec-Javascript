@@ -161,33 +161,4 @@ i {
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #141313; }
 
-        .shake1
-        {
-            animation: animationShake1 0.5s infinite;
-        }
-        @keyframes animationShake1{
-            0%{
-                transform: rotate(8deg);
-            }
-            50%{
-                transform: rotate(-8deg);
-            }
-            100%{
-                transform: rotate(8deg);
-            }
-        }
-        .shake2
-        {
-            animation: animationShake2 0.5s infinite;
-        }
-        @keyframes animationShake2{
-            0%{
-                transform: rotate(-8deg);
-            }
-            50%{
-                transform: rotate(8deg);
-            }
-            100%{
-                transform: rotate(-8deg);
-            }
-        }
+

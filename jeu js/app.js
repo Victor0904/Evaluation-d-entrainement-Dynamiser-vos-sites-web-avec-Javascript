@@ -5,12 +5,12 @@ var sPlayer2 = "Player 2";
 
 // Change player Name
 function editNames() {
-    sPlayer1 = prompt("Change Player1 name");
-    sPlayer2 = prompt("Change player2 name");
+    sPlayer1 = prompt("Changer le nom du joueur 1");
+    sPlayer2 = prompt("Changer le nom du joueur 2");
 
-    document.querySelector("Player 1").innerHTML = sPlayer1;
+    document.querySelector("name-0").innerHTML = sPlayer1;
 
-    document.querySelector("Player 2").innerHTML = sPlayer2;
+    document.querySelector("name-1").innerHTML = sPlayer1;
 }
 
 

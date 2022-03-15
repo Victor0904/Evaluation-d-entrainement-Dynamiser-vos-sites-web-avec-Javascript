@@ -7,15 +7,15 @@ var nScore1 =0;
 var nScore2 =0;
 
 
-// nombre de partie joué 
+// number of game played
 var nNbGame =0;
 
 
 
 // Function to change the player name
 function editNames() {
-    sPlayer1 = prompt("Change Player1 name");
-    sPlayer2 = prompt("Change player2 name");
+    sPlayer1 = prompt("Changer le nom du joueur 1");
+    sPlayer2 = prompt("Changer le nom du joueur 2");
 
     document.querySelector("p.Player1").innerHTML = sPlayer1;
 
